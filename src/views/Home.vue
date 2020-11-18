@@ -1,68 +1,115 @@
 <template>
   <ion-page>
-    <ion-header :translucent="true">
-      <ion-toolbar>
-        <ion-title>Blank</ion-title>
-      </ion-toolbar>
+    <ion-header class="ion-no-border">
+      <!--<ion-toolbar>
+        <ion-title>Nora and Dave Get Married</ion-title>
+      </ion-toolbar>-->
     </ion-header>
-    
-    <ion-content :fullscreen="true">
-      <ion-header collapse="condense">
-        <ion-toolbar>
-          <ion-title size="large">Blank</ion-title>
-        </ion-toolbar>
-      </ion-header>
-    
-      <div id="container">
-        <strong>Ready to create an app?</strong>
-        <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-      </div>
+    <ion-content class="ion-padding">
+      <ion-grid class="ion-align-items-center">
+        <ion-row style="width:100%">
+          <ion-col>
+            <!--<svg width="100%" height="200px" viewBox="0 0 350 350">
+              <path id="curve" d="M 0 300 A 75 50 0 1 1 350 300" />
+              <text class="ion-text-uppercase">
+                <textPath xlink:href="#curve">&nbsp;&nbsp;Save The Date</textPath>
+              </text>
+
+            </svg>-->
+            <div>
+            <h2 class="save-the-date-text ion-text-uppercase">Save The Date</h2>
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row class="ion-justify-content-center">
+          <ion-col class="ion-align-self-center ion-text-center">
+            <div>
+              <h1 style="font-size:66px" class="ion-text-uppercase">Nora &amp; Dave</h1>
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row class="save-date-divider-container ion-justify-content-center">
+          <ion-col class="ion-align-self-center">
+            <div class="save-date-divider"></div>
+          </ion-col>
+        </ion-row>
+        <ion-row class="ion-justify-content-center">
+          <ion-col class="ion-text-center">
+            <div>
+              <h2 class="ion-text-uppercase">Friday, 17th September 2021</h2>
+            </div>
+          </ion-col>
+        </ion-row>
+        <!--<ion-row class="ion-justify-content-center">
+          <ion-col class="ion-text-center">
+            <div>
+              <ion-button fill="outline" size="large" color="light" @click="navigate()">R.S.V.P.</ion-button>
+            </div>
+          </ion-col>
+        </ion-row>-->
+      </ion-grid>
     </ion-content>
   </ion-page>
 </template>
 
-<script lang="ts">
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
-import { defineComponent } from 'vue';
+<script>
+import { 
+  IonRow, IonGrid, IonCol, IonPage, IonHeader, IonContent
+} from '@ionic/vue';
 
-export default defineComponent({
-  name: 'Home',
+export default {
+  name: 'home',
   components: {
-    IonContent,
-    IonHeader,
-    IonPage,
-    IonTitle,
-    IonToolbar
+    IonRow, IonGrid, IonCol, IonPage, IonHeader, IonContent
+  },
+  methods: {
+    navigate: function () {
+      this.$router.push('respond')
+    }
   }
-});
+}
 </script>
 
 <style scoped>
-#container {
+h1{
+  font-family: 'Abril Fatface';
+}
+h2{
+  font-family: 'Oswald';
+  letter-spacing: 1.25px;
+}
+.save-date-divider-container{
+  width: 40%;
   text-align: center;
-  
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+}
+.save-date-divider{
+  max-width: 300px;
+  border-bottom:1px solid white;
+  margin: 0 auto;
+}
+ion-grid{
+  height: 90%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+svg{
+  margin-bottom: -45px;
+}
+path{
+  fill:transparent;
+}
+text{
+  fill:  #f3a3a8;
+  font-size: 59px;
+  font-weight: bold;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.save-the-date-text {
+  font-size: 36px;
+  color: #f3a3a8;
+  margin-bottom: -20px;
+  text-align: center;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-  
-  color: #8c8c8c;
-  
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
-}
 </style>
