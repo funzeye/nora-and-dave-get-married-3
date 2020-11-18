@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import TabRoot from '../components/TabRoot.vue'
 
+
 const routes = [
   { 
     path: '/', 
