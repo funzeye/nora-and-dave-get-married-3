@@ -1,12 +1,11 @@
-import { createRouter, createWebHashHistory } from '@ionic/vue-router';
+import { createRouter, createWebHistory } from '@ionic/vue-router';
 import TabRoot from '../components/TabRoot.vue'
 
 
 const routes = [
   { 
     path: '/', 
-    name: 'home', 
-    redirect: 'tabs/home'
+    redirect: '/tabs/home'
   },
   {
     path: '/tabs/',
@@ -41,7 +40,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(process.env.BASE_URL),
+  history: createWebHistory(process.env.BASE_URL),
   routes
 })
 
