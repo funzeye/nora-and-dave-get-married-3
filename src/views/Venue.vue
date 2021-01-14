@@ -23,7 +23,7 @@
                 <ion-card-title>More Info</ion-card-title>
               </ion-card-header>
               <ion-card-content>
-                We recommend booking your room as quickly as possible as there will be another wedding on in the hotel that night so the hotel will fill up fast.
+                We recommend booking your room as quickly as possible as there will be another wedding on in the hotel that night so the hotel will fill up fast. We will provide a list of alternative accomodation options shortly.
               </ion-card-content>
             </ion-card>
             <ion-card>
@@ -31,7 +31,9 @@
                 <ion-card-title>Wedding-Rate Discount</ion-card-title>
               </ion-card-header>
               <ion-card-content>
-                Please mention to the receptionist that you are going to our wedding to receive any discount that is available.
+                Please mention to the receptionist that you are going to our wedding to receive any discount that is available. Rate is €87.50 per person sharing or €127.50 for single occupancy. 
+                Breakfast is included. Full refund given if room cancelled more than 48 hours before date, a €65 cancellation fee if cancelled within 48 hours, and full payment needed if cancelled on the day. Credit Card details needed to secure room or €65 deposit if you dont have a credit card. 
+                Payment of room not needed until arrival/checkout.
               </ion-card-content>
             </ion-card>
             <ion-card>
@@ -49,9 +51,10 @@
               <ion-card-content>
                 <h2>From Mayo:</h2>
                 <p>
-                  Head north east towards Carrick On Shannon via Frenchpark. In Carrick go into town and take right turn for Ballinamore.
-                  Continue straight through Ballinamore.
-                  About 5 kilometres outside Ballinamore take a left turn for Ballyconnell.
+                  Head north east towards Carrick On Shannon via Frenchpark. In Carrick go into town and take turn for Ballinamore.
+                  Continue straight out of Carrick for about 6 kilometres. Careful not to miss the right turn for Ballinamore (R209) off the main road.
+                  Continue straight through Ballinamore up the hill.
+                  About 8 kilometres outside Ballinamore take a left turn for Ballyconnell (R205).
                   When you reach Ballyconnell town centre turn right and continue out of town for about 3 kilometres. The hotel is on the right.
                 </p>
                 <br>
