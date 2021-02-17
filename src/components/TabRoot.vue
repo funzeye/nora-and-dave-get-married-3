@@ -17,6 +17,11 @@
               <ion-icon :icon="location"></ion-icon>
               <ion-label>Venue</ion-label>
             </ion-tab-button>
+
+            <ion-tab-button tab="accomodation" href="/tabs/accomodation">
+              <ion-icon :icon="bed"></ion-icon>
+              <ion-label>Accomodation</ion-label>
+            </ion-tab-button>
           </ion-tab-bar>
       </ion-tabs>
     </ion-content>
@@ -29,13 +34,13 @@ import {
   IonContent, IonIcon, IonLabel, IonPage
 } from '@ionic/vue';
 
-import { calendar, mailOpen, location } from 'ionicons/icons'
+import { calendar, mailOpen, location, bed } from 'ionicons/icons'
 
 export default {
   name: 'Tabs',
   setup () {
     return {
-      calendar, mailOpen, location
+      calendar, mailOpen, location, bed
     }
   },
   components: {
