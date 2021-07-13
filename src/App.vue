@@ -33,7 +33,7 @@ export default defineComponent({
  }
 
 :root{
-  --ion-background-color:#1c5c5a;
+  --ion-background-color:#9b4937;
   --ion-text-color: white;
 }
 
