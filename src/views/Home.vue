@@ -40,13 +40,13 @@
             </div>
           </ion-col>
         </ion-row>
-        <!--<ion-row class="ion-justify-content-center">
+        <ion-row class="ion-justify-content-center">
           <ion-col class="ion-text-center">
             <div>
               <ion-button fill="outline" size="large" color="light" @click="navigate()">R.S.V.P.</ion-button>
             </div>
           </ion-col>
-        </ion-row>-->
+        </ion-row>
       </ion-grid>
     </ion-content>
   </ion-page>
