@@ -21,7 +21,7 @@
                 <ion-card-title>Other Hotel Recommendations</ion-card-title>
               </ion-card-header>
               <ion-card-content>
-                Check out the list <a href="https://secure.booking.com/mywishlist.html?aid=304142&tflv=0&wl=2wZGTyMjOVDu4IRKqphS5LyGvwo&">here</a>
+                Check out the list <a href="https://secure.booking.com/mywishlist.html?aid=304142&tflv=0&wl=2wZGTyMjOVDu4IRKqphS5LyGvwo&&">here</a>
               </ion-card-content>
             </ion-card>
           </ion-col>
