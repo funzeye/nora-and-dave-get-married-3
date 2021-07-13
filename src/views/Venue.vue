@@ -23,7 +23,8 @@
                 <ion-card-title>More Info</ion-card-title>
               </ion-card-header>
               <ion-card-content>
-                We recommend booking your room as quickly as possible as there will be another wedding on in the hotel that night so the hotel will fill up fast. We will provide a list of alternative accomodation options shortly.
+                We recommend booking your room as quickly as possible as we only have 40 rooms guaranteed to be available to us, many of which are already booked. A list of alternative accomodation options are available in the 'Accomodation' tab. 
+                Please contact us if you are having issues finding anywhere to stay and will we try to help.
               </ion-card-content>
             </ion-card>
             <ion-card>
