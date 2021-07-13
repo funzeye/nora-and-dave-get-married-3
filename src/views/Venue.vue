@@ -43,7 +43,7 @@
                 <ion-card-title>What about COVID?</ion-card-title>
               </ion-card-header>
               <ion-card-content>
-                The hotel have confirmed that if wedding guest limits are in place on the date of our wedding you will be able to get a full refund.
+                The hotel have confirmed that if wedding guest limits are suddenly reduced and you are unable to attend on the day of our wedding you will be able to get a full refund.
               </ion-card-content>
             </ion-card>
             <ion-card>
