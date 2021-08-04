@@ -8,8 +8,18 @@
           <ion-col size="12">
             <ion-card>
               <img style="width:100%;" src="/assets/popup_header.jpg" />
+              <ion-card-header>
+                <ion-card-title>Slieve Russell Rooms Reserved For Wedding Guests + Wedding-Rate Discount</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                Currently all regular rooms are booked out in the Slieve Russell for the 17th September. So, in order to book a room you must <b>ring</b> the hotel as we have 40 rooms set aside for the wedding.
+                Please mention to the receptionist that you are going to our wedding in order to get access to these rooms plus to receive any discount that is available. Rate is €87.50 per person sharing or €127.50 for single occupancy. 
+                Breakfast is included. Full refund given if room is cancelled more than 48 hours before date, a €65 cancellation fee if cancelled within 48 hours, and full payment needed if cancelled on the day. Credit Card details needed to secure room or €65 deposit if you dont have a credit card. 
+                Payment of room not needed until arrival/checkout.
+              </ion-card-content>
             </ion-card>
           </ion-col>
+          
         </ion-row>
         <ion-row>
           <ion-col size="12" size-md size-Xl="6">
