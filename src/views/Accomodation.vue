@@ -7,7 +7,7 @@
         <ion-row>
           <ion-col size="12">
             <ion-card>
-              <img src="/assets/popup_header.jpg" />
+              <img style="width:100%;" src="/assets/popup_header.jpg" />
             </ion-card>
           </ion-col>
         </ion-row>
@@ -18,7 +18,7 @@
                 <ion-card-title>AirBnB</ion-card-title>
               </ion-card-header>
               <ion-card-content>
-                Check out the list <a href="https://www.airbnb.ie/s/Ballyconnell--Ireland/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&date_picker_type=calendar&checkin=2021-09-17&checkout=2021-09-18&adults=2&source=structured_search_input_header&search_type=user_map_move&ne_lat=54.15208053427194&ne_lng=-7.5004487719726285&sw_lat=54.076311418974186&sw_lng=-7.676058360595675&zoom=13&search_by_map=true&flexible_trip_dates%5B%5D=august&flexible_trip_dates%5B%5D=july&flexible_trip_lengths%5B%5D=weekend_trip&place_id=ChIJbaB95Y5rXkgR4OQxl6nHAAo">here</a>
+                Check out the list <a href="https://www.airbnb.ie/s/Ballyconnell--Ireland/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&date_picker_type=calendar&checkin=2021-09-17&checkout=2021-09-18&adults=2&source=structured_search_input_header&search_type=user_map_move&ne_lat=54.19913526589589&ne_lng=-7.4023442950439176&sw_lat=54.047630781197306&sw_lng=-7.753563472290011&zoom=12&search_by_map=true&flexible_trip_dates%5B%5D=august&flexible_trip_lengths%5B%5D=weekend_trip&place_id=ChIJbaB95Y5rXkgR4OQxl6nHAAo">here</a>
               </ion-card-content>
             </ion-card>
           </ion-col>
