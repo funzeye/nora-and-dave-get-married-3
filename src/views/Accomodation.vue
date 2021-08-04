@@ -8,6 +8,7 @@
           <ion-col size="12">
             <ion-card>
               <img src="/assets/popup_header.jpg" />
+            </ion-card>
           </ion-col>
         </ion-row>
         <ion-row>
@@ -28,6 +29,8 @@
               </ion-card-header>
               <ion-card-content>
                 Check out the list <a href="https://secure.booking.com/mywishlist.html?aid=304142&tflv=0&wl=2wZGTyMjOVDu4IRKqphS5LyGvwo&&">here</a>
+                <br/>
+                We recommend in particular "The Angler's Rest"
               </ion-card-content>
             </ion-card>
           </ion-col>
