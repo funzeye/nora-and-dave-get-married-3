@@ -5,6 +5,12 @@
     <ion-content class="ion-padding">
       <ion-grid fixed>
         <ion-row>
+          <ion-col size="12">
+            <ion-card>
+              <img src="/assets/popup_header.jpg" />
+          </ion-col>
+        </ion-row>
+        <ion-row>
           <ion-col size="12" size-md size-Xl="6">
             <ion-card>
               <ion-card-header>
