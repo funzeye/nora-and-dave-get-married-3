@@ -9,7 +9,8 @@
             <ion-card>
               <img style="width:100%;" src="/assets/popup_header.jpg" />
               <ion-card-header>
-                <ion-card-title>Slieve Russell Rooms Reserved For Wedding Guests + Wedding-Rate Discount</ion-card-title>
+                <ion-card-subtitle>Slieve Russell</ion-card-subtitle>
+                <ion-card-title>Rooms Reserved For Wedding Guests + Wedding-Rate Discount</ion-card-title>
               </ion-card-header>
               <ion-card-content>
                 Currently all regular rooms are booked out in the Slieve Russell for the 17th September. So, in order to book a room you must <b>ring</b> the hotel as we have 40 rooms set aside for the wedding.
