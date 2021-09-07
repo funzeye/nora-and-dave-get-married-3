@@ -8,10 +8,10 @@
               <ion-label>Date</ion-label>
             </ion-tab-button>
 
-            <ion-tab-button tab="respond" href="/tabs/respond">
+            <!--<ion-tab-button tab="respond" href="/tabs/respond">
               <ion-icon :icon="mailOpen"></ion-icon>
               <ion-label>R.S.V.P.</ion-label>
-            </ion-tab-button>
+            </ion-tab-button>-->
             
             <ion-tab-button tab="venue" href="/tabs/venue">
               <ion-icon :icon="location"></ion-icon>
