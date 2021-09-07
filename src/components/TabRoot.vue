@@ -34,13 +34,13 @@ import {
   IonContent, IonIcon, IonLabel, IonPage
 } from '@ionic/vue';
 
-import { calendar, mailOpen, location, bed } from 'ionicons/icons'
+import { calendar, location, bed } from 'ionicons/icons'
 
 export default {
   name: 'Tabs',
   setup () {
     return {
-      calendar, mailOpen, location, bed
+      calendar, location, bed
     }
   },
   components: {
