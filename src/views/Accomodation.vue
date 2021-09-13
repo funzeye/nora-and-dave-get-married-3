@@ -7,7 +7,7 @@
         <ion-row>
           <ion-col size="12">
             <ion-card>
-              <img src="/assets/popup_header.jpg" />
+              <img style="width:100%" src="/assets/popup_header.jpg" />
             </ion-card>
           </ion-col>
         </ion-row>
