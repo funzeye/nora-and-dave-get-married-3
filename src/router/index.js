@@ -26,6 +26,11 @@ const routes = [
         name: 'respond'
       },
       {
+        path: 'ceremony',
+        component: () => import('@/views/Ceremony.vue'),
+        name: 'ceremony'
+      },
+      {
         path: 'venue',
         component: () => import('@/views/Venue.vue'),
         name: 'venue'
