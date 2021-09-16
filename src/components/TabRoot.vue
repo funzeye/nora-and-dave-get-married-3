@@ -8,6 +8,11 @@
               <ion-label>Date</ion-label>
             </ion-tab-button>
 
+            <ion-tab-button tab="seating" href="/tabs/seating">
+              <ion-icon :icon="restaurant"></ion-icon>
+              <ion-label>Seating</ion-label>
+            </ion-tab-button>
+
             <ion-tab-button tab="ceremony" href="/tabs/ceremony">
               <ion-icon :icon="notifications"></ion-icon>
               <ion-label>Ceremony</ion-label>
@@ -34,13 +39,13 @@ import {
   IonContent, IonIcon, IonLabel, IonPage
 } from '@ionic/vue';
 
-import { calendar, location, bed, notifications } from 'ionicons/icons'
+import { calendar, location, bed, notifications, restaurant } from 'ionicons/icons'
 
 export default {
   name: 'Tabs',
   setup () {
     return {
-      calendar, location, bed, notifications
+      calendar, location, bed, notifications, restaurant
     }
   },
   components: {
